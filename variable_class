@@ -1,0 +1,8 @@
+intteger1 = 10
+string1 = 'Hello'
+
+print(intteger1, string1)
+
+n = 3
+result = 11**n
+print(result)

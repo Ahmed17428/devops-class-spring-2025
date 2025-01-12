@@ -1,0 +1,110 @@
+### 1. Concatenate the string ⁠ 'Thirty' ⁠, ⁠ 'Days' ⁠, ⁠ 'Of' ⁠, ⁠ 'Python' ⁠ to a single string ⁠ 'Thirty Days Of Python' ⁠.
+
+result = ' '.join(['Thirty', 'Days', 'Of', 'Python'])
+print(result)  
+
+
+### 2. Concatenate the string ⁠ 'Coding' ⁠, ⁠ 'For' ⁠, ⁠ 'All' ⁠ to a single string ⁠ 'Coding For All' ⁠.
+
+result = ' '.join(['Coding', 'For', 'All'])
+print(result)  # Output: Coding For All
+
+
+### 3. Declare a variable named ⁠ company ⁠ and assign it to an initial value ⁠ "Coding For All" ⁠.
+
+company = "Coding For All"
+
+
+### 4. Print the variable ⁠ company ⁠ using ⁠ print() ⁠.
+
+print(company)  # Output: Coding For All
+
+
+### 5. Print the length of the ⁠ company ⁠ string using ⁠ len() ⁠ method and ⁠ print() ⁠.
+
+print(len(company))  # Output: 14
+
+
+### 6. Change all the characters to uppercase letters using ⁠ upper() ⁠ method.
+
+print(company.upper())  # Output: CODING FOR ALL
+
+
+### 7. Change all the characters to lowercase letters using ⁠ lower() ⁠ method.
+
+print(company.lower())  # Output: coding for all
+
+
+### 8. Use ⁠ capitalize() ⁠, ⁠ title() ⁠, ⁠ swapcase() ⁠ methods to format the value of the string ⁠ Coding For All ⁠.
+
+print(company.capitalize())  # Output: Coding for all
+print(company.title())       # Output: Coding For All
+print(company.swapcase())    # Output: cODING fOR aLL
+
+
+### 9. Cut (slice) out the first word of ⁠ 'Coding For All' ⁠ string.
+
+print(company[7:])  # Output: For All
+
+
+### 10. Check if ⁠ 'Coding For All' ⁠ string contains a word ⁠ 'Coding' ⁠ using the method ⁠ index ⁠, ⁠ find ⁠, or other methods.
+
+print('Coding' in company)  # Output: True
+print(company.find('Coding'))  # Output: 0  (Index where 'Coding' starts)
+print(company.index('Coding'))  # Output: 0  (Index where 'Coding' starts)
+
+
+### 11. Replace the word ⁠ 'Coding' ⁠ in the string ⁠ 'Coding For All' ⁠ to ⁠ 'Python' ⁠.
+
+print(company.replace('Coding', 'Python'))  # Output: Python For All
+
+
+### 12. Change ⁠ 'Python for Everyone' ⁠ to ⁠ 'Python for All' ⁠ using the ⁠ replace() ⁠ method or other methods.
+
+text = "Python for Everyone"
+print(text.replace('Everyone', 'All'))  # Output: Python for All
+
+
+### 13. Split the string ⁠ 'Coding For All' ⁠ using space as the separator (⁠ split() ⁠).
+
+print(company.split())  # Output: ['Coding', 'For', 'All']
+
+
+### 14. Split ⁠ "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" ⁠ string at the comma.
+
+tech_companies = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(tech_companies.split(', '))  
+# Output: ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+
+
+### 15. What is the character at index ⁠ 0 ⁠ in the string ⁠ 'Coding For All' ⁠?
+
+print(company[0])  # Output: C
+
+
+### 16. What is the last index of the string ⁠ 'Coding For All' ⁠?
+
+print(len(company) - 1)  # Output: 13
+
+
+### 17. What character is at index ⁠ 10 ⁠ in ⁠ 'Coding For All' ⁠ string?
+
+print(company[10])  # Output: A
+
+
+### 18. Create an acronym or an abbreviation for the name ⁠ 'Python For Everyone' ⁠.
+
+text = "Python For Everyone"
+acronym = ''.join([word[0] for word in text.split()]).upper()
+print(acronym)  # Output: PFE
+
+
+### 19. Create an acronym or an abbreviation for the name ⁠ 'Coding For All' ⁠.
+
+text = "Coding For All"
+acronym = ''.join([word[0] for word in text.split()]).upper()
+print(acronym)  # Output: CFA
+
+
+company = "Coding For All"
+print(company.index('C'))  # Output: 0
