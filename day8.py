@@ -23,3 +23,14 @@ skills_type = type(skills_value)
 
 student['skills'].extend(['Aws','Azure'])
 print(student)
+
+
+# Get user input
+age = int(input("Enter your age: "))
+
+# Check if the user is 18 or older
+if age >= 18:
+    print("You are old enough to learn to drive.")
+else:
+    years_needed = 18 - age
+    print(f"You need {years_needed} more years to learn to drive.")
